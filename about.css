@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+.nav{
+    position: sticky;
+    top:0;
+    background-color: #121212;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:1rem 0 1rem 0;
+    color:white;
+}
+.left{
+    display: flex;
+    margin-left: 0.75rem;
+}
+.right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.right button{
+    padding:0.2rem;
+    margin:0.5rem;
+    border-radius: 16px;
+    width:60px;
+}
+.left a{
+    color:white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding:0.3rem;
+    margin:0.5rem;
+}
+.left h2{
+    padding:0.3rem;
+    margin:0.3rem;
+}
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("images/kseniya-lapteva-kOajnscQxW8-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(12px);
+    z-index: -1;
+}
+
+.para {
+    color: black;
+    padding: 40px;
+    max-width: 100%;
+}
+
+.head {
+    margin: 20px;
+    text-align: right;
+    color: black;
+}
+
+.p1 {
+    text-align: right;
+    color: black;
+    margin: 30px;
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: large;
+}
+
+.p2 {
+    text-align: right;
+    color: black;
+    margin: 30px;
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: large;
+}
+
+.para2 {
+    padding: 40px;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 20rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.company, .product, .global, .travel {
+    margin: 5rem;
+    flex: 1;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.icons i {
+    padding: 0.5rem;
+    color: white;
+}

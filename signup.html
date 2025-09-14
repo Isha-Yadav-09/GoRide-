@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GoRide</title>
+    <link rel="stylesheet" href="signup.css">
+
+</head>
+
+<body>
+    <div class="content">
+        <div class="main">
+            <form aciton ="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+                <div class="heading">
+                    <h1>Sign Up</h1>
+                </div>
+                <div class="formdesign" id="name">
+                   Enter Username: <input type="text" name="fname" required><b><span class="formerror"> </span></b>
+                </div>
+        
+                <div class="formdesign" id="email">
+                    Enter Email: <input type="email" name="femail" required><b><span class="formerror"> </span></b>
+                </div>
+        
+                <div class="formdesign" id="phone">
+                   Enter Mobile Number: <input type="phone" name="fphone" required><b><span class="formerror"></span></b>
+                </div>
+        
+                <div class="formdesign" id="pass">
+                    Enter Password: <input type="password" name="fpass" required><b><span class="formerror"></span></b>
+                </div>
+        
+                <div class="formdesign" id="cpass">
+                    Confirm Password: <input type="password" name="fcpass" required><b><span class="formerror"></span></b>
+                </div>
+        
+                <input class="but" type="submit" value="Sign Up">
+        
+            </form>
+        </div>
+    </div>
+</body>
+<script src="signup.js"></script>
+
+</html>

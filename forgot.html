@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GoRide</title>
+    <link rel="stylesheet" href="forget.css">
+
+</head>
+
+<body>
+    <div class="content">
+        <div class="main">
+            <form aciton ="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+        
+                <div class="formdesign" id="email">
+                    Enter Email: <input type="email" name="femail" required><b><span class="formerror"> </span></b>
+                </div>
+        
+                <div class="formdesign" id="pass">
+                    Enter Password: <input type="password" name="fpass" required><b><span class="formerror"></span></b>
+                </div>
+                <div class="formdesign" id="cpass">
+                    Confirm Password: <input type="password" name="fcpass" required><b><span class="formerror"></span></b>
+                </div>
+                <input class="but" type="submit" value="submit">
+            </form>
+        </div>
+    </div>
+</body>
+<script src="login.js"></script>
+
+</html>

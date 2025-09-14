@@ -1,0 +1,133 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+.nav{
+    position: sticky;
+    top:0;
+    background-color: #121212;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:1rem 0 1rem 0;
+    color:white;
+}
+.left{
+    display: flex;
+    margin-left: 0.75rem;
+}
+.right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.right button{
+    padding:0.2rem;
+    margin:0.5rem;
+    border-radius: 16px;
+    width:60px;
+}
+.left a{
+    color:white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding:0.3rem;
+    margin:0.5rem;
+}
+.left h2{
+    padding:0.3rem;
+    margin:0.3rem;
+}
+.ride{
+    display: flex;
+    background: url(images/white-painted-wall-texture-background.jpg);
+    height:40rem;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    margin:10rem 15rem 10rem 15rem;
+}
+.search input{
+    border-radius: 16px;
+    font-size: 20px;
+    width:23rem;
+    padding:0.5rem;
+}
+.search button{
+    font-size: 22px;
+    width:23rem;
+}
+.image{
+    display: flex;
+    margin-top: 7rem;
+}
+.image img {
+    height: 25rem;
+    width: 100%;  /* Sets the image to take full width of its container */
+    max-width: 100%; /* Ensures the image won't exceed the container's width */
+    /* object-fit: cover; Keeps aspect ratio if the container changes size */
+    margin: 0; /* Remove extra margins to prevent overflow */
+    padding: 0;
+}
+
+.drive{
+    display: flex;
+    background: url(kseniya-lapteva-kOajnscQxW8-unsplash.jpg);
+    height:50rem;
+}
+.image1{
+    display: flex;
+    margin:10rem 15rem 10rem 15rem;
+}
+.image1 img{
+    height: 25rem;
+    width: 30rem;
+}
+.content{
+    margin:15rem 5rem 5rem 2rem;
+}
+.rent{
+    display: flex;
+    background:url(4880206.jpg);
+    height:40rem;
+}
+.image2{
+    display: flex;
+    margin:6rem 10rem 10rem 10rem;
+}
+.image2 img{
+    height: 25rem;
+    width: 30rem;
+}
+.content2{
+    margin:13rem 2rem 5rem 10rem;
+}
+.footer{
+    display: flex;
+    background-color:black;
+    color:white;
+    height:30rem;
+}
+.company{
+    margin:10rem 10rem 10rem 10rem;
+}
+.product{
+    margin:10rem 5rem 10rem 5rem;
+}
+.global{
+    margin:10rem 5rem 10rem 5rem;
+}
+.travel{
+    margin:10rem 5rem 10rem 5rem;
+}
+.icons{
+    margin:20rem 0 0 0;
+}
+.icons i{
+    padding: 0.5rem;
+}

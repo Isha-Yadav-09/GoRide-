@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:black;
+  background: url(images/white-painted-wall-texture-background.jpg);
+  height:40rem;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+.outer-box {
+  background-color: white;
+  color:white;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 50%;
+  position: relative;
+  top: 150px;
+}
+
+header {
+  background-color: black;;
+  color:white;
+  text-align: center;
+  padding: 10px;
+  border:0.5px solid black;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-box {
+  display: inline-block;  /* Make boxes inline but with spacing */
+  background-color: black;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 300px;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.box-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  margin-top: 5px;
+}
+
+.box-button:hover {
+  background-color: #ccc; /* Change background on hover */
+}
+
+.nav{
+  position: sticky;
+  top:0;
+  background-color: #121212;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding:1rem 0 1rem 0;
+  color:white;
+}
+
+.left{
+  display: flex;
+  margin-left: 0.75rem;
+}
+
+.right{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right button{
+  padding:0.2rem;
+  margin:0.5rem;
+  border-radius: 16px;
+  width:60px;
+}
+
+.left a{
+  color:white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding:0.3rem;
+  margin:0.5rem;
+}
+
+.left h2{
+  padding:0.3rem;
+  margin:0.3rem;
+}

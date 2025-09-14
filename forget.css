@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: whitesmoke;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Content Wrapper */
+.content {
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    color: #333;
+}
+
+/* Main Form Section */
+.main {
+    width: 100%;
+}
+
+/* Form Elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formdesign {
+    margin-bottom: 20px;
+}
+
+.formdesign input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.formdesign input:focus {
+    border-color: black;
+    box-shadow: 0px 0px 4px rgba(76, 175, 80, 0.5);
+}
+
+/* Error Styling */
+.formerror {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Submit Button */
+.but {
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.but:hover {
+    background-color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .content {
+        padding: 15px;
+    }
+
+    .formdesign input {
+        font-size: 14px;
+    }
+
+    .but {
+        font-size: 16px;
+    }
+}

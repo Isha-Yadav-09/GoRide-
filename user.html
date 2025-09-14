@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="user.css">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Login & Register Page</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="sign-up">
+            <form action="" id="signup-form"> <h1>Create Account</h1>
+                <div class="social-icons">
+                    <div id="g_id_signup"></div>
+                </div>
+                <span>Register with E-mail</span>
+                <input type="text" placeholder="Name" id="signup-name">
+                <input type="email" placeholder="Enter E-mail" id="signup-email">
+                <input type="phoneNumber" placeholder="Enter Phone Number" id="signup-phone">
+                <input type="password" placeholder="Enter Password" id="signup-password">
+                <input type="password" placeholder="Confirm Password" id="signup-confirm-password">
+                <button type="submit">Sign Up</button>
+                <p id="signup-message"></p> </form>
+        </div>
+
+        
+        <div class="sign-in">
+            <form action="" id="signin-form"> <h1>Sign In</h1>
+                <div class="social-icons">
+                      <div id="g_id_signin"></div>
+                </div>
+                <span>Login With Email & Password</span>
+                <input type="email" placeholder="Enter E-mail" id="signin-email">
+                <input type="password" placeholder="Enter Password" id="signin-password">
+                <a href="forgot.html">Forget Password?</a> <button type="submit">Sign In</button>
+                <p id="signin-message"></p> </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome To <br>GoRide</h1>
+                    <p>Sign in With ID & Passowrd</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello!</h1>
+                    <p>Welcome to GoRide</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

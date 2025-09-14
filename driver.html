@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cab Booking - Driver Signup</title>
+    <link rel="stylesheet" href="driver.css">
+    <script src="scripte1.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Become a Driver</h1>
+        <p>Here's what you need to do to set up your account.</p>
+
+        <form action="" id="signup-form">
+            <ul>
+                <li>
+
+                    <div class="form-section">
+                        <h2>Driving License</h2>
+                        <p>Upload a clear scan of your driving license (front side).</p>
+                        <input type="file" id="driving-license" accept=".jpg,.jpeg,.png" required>
+                        <label for="driving-license">Upload Driving License</label>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="form-section">
+                        <h2>Profile Photo</h2>
+                        <p>Upload a recent photo of yourself.</p>
+                        <input type="file" id="profile-photo" accept=".jpg,.jpeg,.png" required>
+                        <label for="profile-photo">Upload Profile Photo</label>
+                    </div>
+                </li>  
+                
+                <li>
+                    <div class="form-section">
+                        <h2>Aadhaar Card</h2>
+                        <p>Upload a scan of your Aadhaar card for faster verification.</p>
+                        <input type="file" id="aadhaar-card" accept=".jpg,.jpeg,.png" required>
+                        <label for="aadhaar-card">Upload Aadhaar Card </label>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="form-section">
+                        <h2>Additional Documents</h2>
+                        <p>Uploading these documents is mandatory to improve your profile trust.</p>
+                        <input type="file" id="pan-card" accept=".jpg,.jpeg,.png" required>
+                        <label for="pan-card">PAN Card</label>
+                        <input type="file" id="rc-book" accept=".jpg,.jpeg,.png" required>
+                        <label for="rc-book">Registration Certificate (RC)</label>
+                        <input type="file" id="vehicle-insurance" accept=".jpg,.jpeg,.png" required>
+                        <label for="vehicle-insurance">Vehicle Insurance</label>
+                        <input type="file" id="vehicle-permit" accept=".jpg,.jpeg,.png" required>
+                        <label for="vehicle-permit">Vehicle Permit</label>
+                    </div>
+                </li>
+                
+                <li>
+                        <div class="form-section">
+                        <h2>Preferred Language</h2>
+                        <select name="language" id="language">
+                            <option value="en">English</option>
+                            <option value="hi">Hindi</option>
+                            <option value="mr">Marathi</option>
+                            </select>
+                    </div>
+                </li>
+            </ul>
+
+            <button type="submit">Sign Up</button>
+
+        </form>
+
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+
+</html>

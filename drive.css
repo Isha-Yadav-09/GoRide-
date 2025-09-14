@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+.nav{
+    position: sticky;
+    top:0;
+    background-color: #121212;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:1rem 0 1rem 0;
+    color:white;
+}
+.left{
+    display: flex;
+    margin-left: 0.75rem;
+}
+.right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.right button{
+    padding:0.2rem;
+    margin:0.5rem;
+    border-radius: 16px;
+    width:60px;
+}
+.left a{
+    color:white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding:0.3rem;
+    margin:0.5rem;
+}
+.left h2{
+    padding:0.3rem;
+    margin:0.3rem;
+}
+.drive{
+    display:flex;
+    background: url(images/3639750.jpg);
+    background-size: contain;
+    height:45rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.content{
+    margin:15rem 5rem 5rem 5rem;
+}
+.signup{
+    margin:5rem;
+}
+.main{
+    display:flex;
+    margin:2rem;
+    padding: 5rem;
+}
+.management{
+    display: flex;
+    padding:2rem;
+}
+.fleet img{
+    height:500px;
+    width:500px;
+}
+.manage{
+    padding:5rem;
+}
+.manage i{
+    margin-left:15rem;
+}
+.footer{
+    display: flex;
+    background-color:black;
+    color:white;
+    height:30rem;
+}
+.company{
+    margin:10rem 10rem 10rem 10rem;
+}
+.product{
+    margin:10rem 5rem 10rem 5rem;
+}
+.global{
+    margin:10rem 5rem 10rem 5rem;
+}
+.travel{
+    margin:10rem 5rem 10rem 5rem;
+}
+.icons{
+    margin:20rem 0 0 0;
+}
+.icons i{
+    padding: 0.5rem;
+}
+.city{
+    display:flex;
+    margin:2rem;
+}
+.image{
+    margin:0 0 1rem 10rem;
+}
+.image img{
+    height:500px;
+    width:600px;
+}
+.list{
+    margin:0 5rem 1rem 7rem;
+}
