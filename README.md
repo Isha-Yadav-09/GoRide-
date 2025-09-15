@@ -46,11 +46,26 @@ Replace mapboxgl.accessToken in ride.js with your own Mapbox [Access Token](http
 
 🧪 Usage
 
--Navigate to the Ride Page (ride.html).
--Enter your Pick-up and Drop-off locations.
--Click Search to visualize the route on the map.
--Previous locations are saved and will be prefilled on your next visit.
--Use the Navbar to navigate between Home, Ride, Drive, and About pages.
+- Navigate to the Ride Page (ride.html).
+- Enter your Pick-up and Drop-off locations.
+- Click Search to visualize the route on the map.
+- Previous locations are saved and will be prefilled on your next visit.
+- Use the Navbar to navigate between Home, Ride, Drive, and About pages.
+
+📸 Screenshots
+Ride Page
+
+<img width="1275" height="709" alt="Screenshot 2025-09-15 at 8 35 49 AM" src="https://github.com/user-attachments/assets/9fadf0a8-0ff9-49a1-8c5e-fe69798e3c90" />
+
+
+Login Page
+
+<img width="1275" height="709" alt="Screenshot 2025-09-15 at 8 36 01 AM" src="https://github.com/user-attachments/assets/1a38869d-55b9-4a6d-a088-7b2e7fbf4c45" />
+
+Home Page
+
+<img width="1267" height="709" alt="Screenshot 2025-09-15 at 8 36 29 AM" src="https://github.com/user-attachments/assets/6a62e915-ad57-40b4-8c4c-87f77a397b68" />
+
 
 
 
