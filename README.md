@@ -20,15 +20,15 @@ GoRide is a responsive and interactive web application that allows users to sear
 - **Version Control**: Git, GitHub
 
 ## 📁 Folder Structure
-GoRide-Frontend/
--├── images/ # Backgrounds and icons
--├── ride.html # Ride page
--├── ride.css # Styling for ride page
--├── ride.js # Mapbox and localStorage logic
--├── index.html # Home page
--├── drive.html # Driver page
--├── about.html # About page
--└── README.md # Project documentation
+- GoRide-Frontend/
+- ├── images/ # Backgrounds and icons
+- ├── ride.html # Ride page
+- ├── ride.css # Styling for ride page
+- ├── ride.js # Mapbox and localStorage logic
+- ├── index.html # Home page
+- ├── drive.html # Driver page
+- ├── about.html # About page
+- └── README.md # Project documentation
 
 1. **Clone the repository**:
 
