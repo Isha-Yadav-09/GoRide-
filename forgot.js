@@ -6,7 +6,6 @@ function clearErrors(){
         item.innerHTML = "";
     }
 
-
 }
 function seterror(id, error){
     element = document.getElementById(id);

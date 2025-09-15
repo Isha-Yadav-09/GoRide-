@@ -1,115 +1,237 @@
-body{
-    margin:0;
-    padding:0;
-    font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: italic;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
 }
-.nav{
+
+/* Navbar */
+.nav {
     position: sticky;
-    top:0;
+    top: 0;
     background-color: #121212;
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
-    padding:1rem 0 1rem 0;
-    color:white;
-}
-.left{
     display: flex;
-    margin-left: 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
-.right{
-    display:flex;
-    justify-content: center;
+
+.left {
+    display: flex;
     align-items: center;
 }
-.right button{
-    padding:0.2rem;
-    margin:0.5rem;
-    border-radius: 16px;
-    width:60px;
+
+.left h2 {
+    margin: 0 1rem 0 0;
+    font-weight: 700;
+    color: #f8f9fa;
 }
-.left a{
-    color:white;
-    font-size: 1.3rem;
+
+.left a {
+    color: #ddd;
+    font-size: 1.1rem;
     text-decoration: none;
-    padding:0.3rem;
-    margin:0.5rem;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
 }
-.left h2{
-    padding:0.3rem;
-    margin:0.3rem;
+
+.left a:hover {
+    color: #0d6efd;
+    border-bottom: 2px solid #0d6efd;
 }
-.drive{
-    display:flex;
+
+/* Drive Section */
+.drive {
+    display: flex;
     background: url(images/3639750.jpg);
     background-size: contain;
     height:45rem;
     background-position: center;
     background-repeat: no-repeat;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem;
+    gap: 2rem;
 }
-.content{
-    margin:15rem 5rem 5rem 5rem;
+
+
+.drive-img {
+    flex: 1 1 300px;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
-.signup{
-    margin:5rem;
+
+.content {
+    flex: 1 1 300px;
+    max-width: 600px;
 }
-.main{
-    display:flex;
-    margin:2rem;
-    padding: 5rem;
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
-.management{
+
+.content p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+/* Signup Section */
+.signup {
+    padding: 2rem;
+}
+
+.signup h1 {
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.main {
     display: flex;
-    padding:2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
 }
-.fleet img{
-    height:500px;
-    width:500px;
+
+.main > div {
+    flex: 1 1 250px;
+    max-width: 300px;
 }
-.manage{
-    padding:5rem;
-}
-.manage i{
-    margin-left:15rem;
-}
-.footer{
+
+/* Management Section */
+.management {
     display: flex;
-    background-color:black;
-    color:white;
-    height:30rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
 }
-.company{
-    margin:10rem 10rem 10rem 10rem;
+
+.fleet img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
 }
-.product{
-    margin:10rem 5rem 10rem 5rem;
+
+.manage {
+    flex: 1 1 400px;
+    max-width: 500px;
 }
-.global{
-    margin:10rem 5rem 10rem 5rem;
+
+.manage i {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem 0;
 }
-.travel{
-    margin:10rem 5rem 10rem 5rem;
+
+/* City Section */
+.city {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
 }
-.icons{
-    margin:20rem 0 0 0;
+
+.list {
+    flex: 1 1 300px;
+    max-width: 400px;
 }
-.icons i{
-    padding: 0.5rem;
+
+.list h2, .list h4 {
+    text-decoration: underline;
 }
-.city{
-    display:flex;
-    margin:2rem;
+
+.image {
+    flex: 1 1 300px;
+    max-width: 400px;
 }
-.image{
-    margin:0 0 1rem 10rem;
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
-.image img{
-    height:500px;
-    width:600px;
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 3rem 1rem;
+    gap: 2rem;
 }
-.list{
-    margin:0 5rem 1rem 7rem;
+
+.footer div {
+    flex: 1 1 150px;
+}
+
+.footer h4 {
+    margin-bottom: 1rem;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+    .drive {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    .content, .drive-img, .fleet img, .manage, .list, .image {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .left a {
+        font-size: 1rem;
+        margin: 0 0.3rem;
+    }
+
+    .content h2 {
+        font-size: 1.5rem;
+    }
+
+    .content p {
+        font-size: 0.9rem;
+    }
+
+    .signup h1 {
+        font-size: 1.5rem;
+    }
+
+    .list h2, .list h4 {
+        font-size: 1.2rem;
+    }
 }

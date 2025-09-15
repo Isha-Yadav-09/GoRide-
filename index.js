@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     pickUpLocation.addEventListener('input', toggleSearchButton);
     dropOffLocation.addEventListener('input', toggleSearchButton);
 });
+
 function handleFormSubmit(event) {
     event.preventDefault(); // Prevent the default form submission
     const pickupLocation = document.getElementById('pickUpLocation').value;
@@ -23,12 +24,3 @@ function handleFormSubmit(event) {
     window.location.href = 'ride.html'; // Redirect to the second page
 }
 
-
-let sign=document.querySelector("#signup");
-let login=document.querySelector("#login");
-sign.onclick = function() {
-    location.assign('signup.html');
-  }
-  login.onclick=function(){
-    location.assign('login.html');
-  }

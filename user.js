@@ -15,7 +15,7 @@ registerButton.addEventListener('click', () => {
   document.getElementById('container').classList.add('active');
 });
 
-// Sign Up Form Submission (Simulated)
+// Sign Up Form Submission 
 signUpForm.addEventListener('submit', (event) => {
   event.preventDefault(); // Prevent default form submission
 
@@ -36,27 +36,24 @@ signUpForm.addEventListener('submit', (event) => {
     return;
   }
 
-  // Simulated successful signup (replace with actual logic)
   signUpMessage.textContent = 'Sign Up Successful! (Simulated)';
-  signUpForm.reset(); // Clear form after successful signup (simulated)
+  signUpForm.reset();
+  window.location = "index.html";
 });
 
-// Sign In Form Submission (Simulated)
+// Sign In Form Submission
 signInForm.addEventListener('submit', (event) => {
-  event.preventDefault(); // Prevent default form submission
-
+  event.preventDefault();
   const email = document.getElementById('signin-email').value;
   const password = document.getElementById('signin-password').value;
 
-  // Basic Validation
   if (!email || !password) {
     signInMessage.textContent = 'Please enter your email and password.';
     return;
   }
-
-  // Simulated successful signin (replace with actual logic)
   signInMessage.textContent = 'Sign In Successful! (Simulated)';
-  // Redirect to another page or display success message (simulated)
+  window.location = "index.html";
+ 
 });
 
  window.onload = function () {
@@ -75,10 +72,7 @@ signInForm.addEventListener('submit', (event) => {
         };
 
         function handleCredentialResponse(response) {
-            // You get the JWT credential here
-            // Send it to your backend for verification and login/register
             console.log("Google JWT:", response.credential);
-            // Example: show a message
             document.getElementById("signin-message").innerText = "Google login successful!";
         }
 

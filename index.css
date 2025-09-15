@@ -1,133 +1,203 @@
-body{
-    margin:0;
-    padding:0;
-    font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: italic;
+/* Reset & base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
 }
-.nav{
+
+/* Navbar */
+.nav {
     position: sticky;
-    top:0;
+    top: 0;
     background-color: #121212;
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
-    padding:1rem 0 1rem 0;
-    color:white;
-}
-.left{
     display: flex;
-    margin-left: 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
-.right{
-    display:flex;
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left h2 {
+    margin: 0 1rem 0 0;
+    font-weight: 700;
+    color: #f8f9fa;
+}
+
+.left a {
+    color: #ddd;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.left a:hover {
+    color: #0d6efd;
+    border-bottom: 2px solid #0d6efd;
+}
+
+.ride{
+    background: url(images/black-car-on-road-near-buildings.jpg) no-repeat center center;
+    
+}
+
+/* Sections */
+.ride, .drive, .rent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+    background-size: cover;
+    background-position: center;
+    gap: 2rem;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 300px;
+    max-width: 500px;
+}
+
+.search h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.search h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.search input {
+    border-radius: 16px;
+    font-size: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+.search button {
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+/* Images */
+.image, .image1, .image2 {
+    flex: 1 1 300px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.right button{
-    padding:0.2rem;
-    margin:0.5rem;
-    border-radius: 16px;
-    width:60px;
+
+.image img, .image1 img, .image2 img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
 }
-.left a{
-    color:white;
-    font-size: 1.3rem;
-    text-decoration: none;
-    padding:0.3rem;
-    margin:0.5rem;
+
+/* Content sections */
+.content, .content2 {
+    flex: 1 1 300px;
+    max-width: 500px;
 }
-.left h2{
-    padding:0.3rem;
-    margin:0.3rem;
+
+.content h2, .content2 h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
-.ride{
+
+.content p, .content2 p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content button, .content2 button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer {
     display: flex;
-    background: url(images/white-painted-wall-texture-background.jpg);
-    height:40rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 3rem 1rem;
+    gap: 2rem;
 }
-.search{
-    display: flex;
-    flex-direction: column;
-    margin:10rem 15rem 10rem 15rem;
+
+.footer div {
+    flex: 1 1 150px;
 }
-.search input{
-    border-radius: 16px;
-    font-size: 20px;
-    width:23rem;
-    padding:0.5rem;
+
+.footer h4 {
+    margin-bottom: 1rem;
 }
-.search button{
-    font-size: 22px;
-    width:23rem;
-}
-.image{
-    display: flex;
-    margin-top: 7rem;
-}
-.image img {
-    height: 25rem;
-    width: 100%;  /* Sets the image to take full width of its container */
-    max-width: 100%; /* Ensures the image won't exceed the container's width */
-    /* object-fit: cover; Keeps aspect ratio if the container changes size */
-    margin: 0; /* Remove extra margins to prevent overflow */
+
+.footer ul {
+    list-style: none;
     padding: 0;
 }
 
-.drive{
-    display: flex;
-    background: url(kseniya-lapteva-kOajnscQxW8-unsplash.jpg);
-    height:50rem;
+.footer ul li {
+    margin-bottom: 0.5rem;
 }
-.image1{
-    display: flex;
-    margin:10rem 15rem 10rem 15rem;
-}
-.image1 img{
-    height: 25rem;
-    width: 30rem;
-}
-.content{
-    margin:15rem 5rem 5rem 2rem;
-}
-.rent{
-    display: flex;
-    background:url(4880206.jpg);
-    height:40rem;
-}
-.image2{
-    display: flex;
-    margin:6rem 10rem 10rem 10rem;
-}
-.image2 img{
-    height: 25rem;
-    width: 30rem;
-}
-.content2{
-    margin:13rem 2rem 5rem 10rem;
-}
-.footer{
-    display: flex;
-    background-color:black;
-    color:white;
-    height:30rem;
-}
-.company{
-    margin:10rem 10rem 10rem 10rem;
-}
-.product{
-    margin:10rem 5rem 10rem 5rem;
-}
-.global{
-    margin:10rem 5rem 10rem 5rem;
-}
-.travel{
-    margin:10rem 5rem 10rem 5rem;
-}
-.icons{
-    margin:20rem 0 0 0;
-}
-.icons i{
+
+/* Icons */
+.icons i {
     padding: 0.5rem;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+    .ride, .drive, .rent {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+    .search, .content, .content2, .image, .image1, .image2 {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .left a {
+        font-size: 1rem;
+        margin: 0 0.3rem;
+    }
+
+    .search h2 {
+        font-size: 1.5rem;
+    }
+
+    .search h5 {
+        font-size: 1rem;
+    }
+
+    .content h2, .content2 h2 {
+        font-size: 1.3rem;
+    }
+
+    .search input, .search button {
+        font-size: 1rem;
+    }
 }

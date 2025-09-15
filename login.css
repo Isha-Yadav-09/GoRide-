@@ -5,7 +5,6 @@ body {
   background-color:black;
   background: url(images/white-painted-wall-texture-background.jpg);
   height:40rem;
-  font-style: italic;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
 
@@ -73,44 +72,40 @@ p {
   background-color: #ccc; /* Change background on hover */
 }
 
-.nav{
-  position: sticky;
-  top:0;
-  background-color: #121212;
-  display:flex;
-  justify-content:space-between;
-  align-items: center;
-  padding:1rem 0 1rem 0;
-  color:white;
+/* Navbar */
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1.5rem;
+    color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
-.left{
-  display: flex;
-  margin-left: 0.75rem;
+.left {
+    display: flex;
+    align-items: center;
 }
 
-.right{
-  display:flex;
-  justify-content: center;
-  align-items: center;
+.left h2 {
+    margin-right: 1rem;
+    font-weight: 700;
+    color: #f8f9fa;
 }
 
-.right button{
-  padding:0.2rem;
-  margin:0.5rem;
-  border-radius: 16px;
-  width:60px;
+.left a {
+    color: #ddd;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
-.left a{
-  color:white;
-  font-size: 1.3rem;
-  text-decoration: none;
-  padding:0.3rem;
-  margin:0.5rem;
-}
-
-.left h2{
-  padding:0.3rem;
-  margin:0.3rem;
+.left a:hover {
+    color: #0d6efd;
+    border-bottom: 2px solid #0d6efd;
 }
