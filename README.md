@@ -21,14 +21,14 @@ GoRide is a responsive and interactive web application that allows users to sear
 
 ## 📁 Folder Structure
 GoRide-Frontend/
-├── images/ # Backgrounds and icons
-├── ride.html # Ride page
-├── ride.css # Styling for ride page
-├── ride.js # Mapbox and localStorage logic
-├── index.html # Home page
-├── drive.html # Driver page
-├── about.html # About page
-└── README.md # Project documentation
+-├── images/ # Backgrounds and icons
+-├── ride.html # Ride page
+-├── ride.css # Styling for ride page
+-├── ride.js # Mapbox and localStorage logic
+-├── index.html # Home page
+-├── drive.html # Driver page
+-├── about.html # About page
+-└── README.md # Project documentation
 
 1. **Clone the repository**:
 
@@ -46,11 +46,11 @@ Replace mapboxgl.accessToken in ride.js with your own Mapbox [Access Token](http
 
 🧪 Usage
 
-Navigate to the Ride Page (ride.html).
-Enter your Pick-up and Drop-off locations.
-Click Search to visualize the route on the map.
-Previous locations are saved and will be prefilled on your next visit.
-Use the Navbar to navigate between Home, Ride, Drive, and About pages.
+-Navigate to the Ride Page (ride.html).
+-Enter your Pick-up and Drop-off locations.
+-Click Search to visualize the route on the map.
+-Previous locations are saved and will be prefilled on your next visit.
+-Use the Navbar to navigate between Home, Ride, Drive, and About pages.
 
 
 
